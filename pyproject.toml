@@ -1,0 +1,10 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry]
+name = "MinkowskiEngine"
+packages = [{include = "MinkowskiEngine"}]
+version="0.5.4"
+authors = ["NVIDIA"]
+description = "Minkowski Engine"
